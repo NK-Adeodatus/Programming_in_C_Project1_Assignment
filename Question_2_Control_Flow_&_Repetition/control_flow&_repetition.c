@@ -12,7 +12,7 @@ int main() {
     while(1) {
         computer_choice = rand() % 3 + 1;
 
-        printf("Enter 1 for Rock, 2 for Paper, 3 for Scissors: \n");
+        printf("Enter 1 for Rock, 2 for Paper, 3 for Scissors or 0 if you want to exit the game: \n");
         scanf("%d", &player_choice);
         
         if(player_choice == 0) {
